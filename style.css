@@ -1,0 +1,85 @@
+/* TODO: inserite il CSS necessario per completare il MHW! */
+.choice-grid{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.choice-grid div{
+    width: 32.5%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.choice-grid div img{
+        width: 100%;
+        height: 150%;
+}
+@media (max-width: 700px){
+    article{
+    width: 95%;
+  }
+  header div span{
+    background-color: transparent;
+  }
+}
+@media (max-width: 500px){
+    .choice-grid div{
+        width: 49%;
+    }
+}
+.question-name h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    background-color: rgba(255,255,255, 0);
+}
+.transparent{
+    opacity: 0.6;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    
+    bottom: 20px;
+    top: 40px;
+    right:  10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+}
+footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: fit-content;
+}
+footer div h1 {
+    margin: 0px;
+}
+
+footer div span{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    height: fit-content;
+}
+button  {
+    background-color: #cecece;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    width: 35%;
+    height: 50px;
+    bottom: 20px;
+    top: 18px; 
+}
+button:hover{
+    background-color: #e0e0e0;
+}
+.hidden{
+    display: none;
+}
